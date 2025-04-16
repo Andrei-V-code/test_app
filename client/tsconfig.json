@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "rootDir": "./",
+    "outDir": "./dist",
+    "esModuleInterop": true,
+    "alwaysStrict": true,
+    "experimentalDecorators": true,
+    "lib": ["es2020", "es2022", "esnext.asynciterable", "dom", "DOM.Iterable"],
+    "isolatedModules": true,
+    "module": "ESNext",
+    "target": "es2020",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "emitDecoratorMetadata": true,
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitAny": true,
+    "noImplicitOverride": false,
+    "noImplicitReturns": true,
+    "noImplicitThis": false,
+    "sourceMap": true,
+    "resolveJsonModule": true,
+    "strictNullChecks": true,
+    "jsx": "react-jsx",
+    "skipLibCheck": true,
+    "stripInternal": true
+  },
+  "include": [
+    "src/**/*.ts",
+    "src/**/*.tsx"
+  ]
+}

@@ -1,0 +1,10 @@
+# Node dependencies
+node_modules/
+
+.DS_Store
+.idea
+
+package-lock.json
+yarn.lock
+
+npm-debug.log*
